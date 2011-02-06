@@ -1,0 +1,32 @@
+Gravatar Helper
+
+A CahePHP Helper for displaying Gravatars
+
+INSTALLATION
+------------
+
+Copy gravatar.php to your app/views/helpers directory
+
+CONFIGURATION
+---------------
+
+In your controller, add the Gravatar Helper to your $helpers array
+
+    public $helpers = array('Gravatar');
+
+USAGE
+---------------
+
+The following examples demonstrate various uses in your view:
+
+    echo $this->Gravatar->image('robert.love@signified.com.au');
+
+    echo $this->Gravatar->image('robert.love@signified.com.au', array('size' => 200));
+
+    echo $this->Gravatar->image('robert.love@signified.com.au', array('size' => 100), array('alt' => 'Robert Love'));
+
+LICENSE
+-------
+
+The files in this archive are released under the new BSD license. You can find a
+copy of this license in LICENSE.
