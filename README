@@ -5,7 +5,7 @@ A CakePHP Helper for displaying Gravatars
 INSTALLATION
 ------------
 
-Copy gravatar.php to your app/views/helpers directory
+Copy GravatarHelper.php to your app/View/Helper directory
 
 CONFIGURATION
 ---------------
